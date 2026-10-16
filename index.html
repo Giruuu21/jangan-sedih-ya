@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Letter For You ♡</title>
+  <meta name="description" content="A little letter from my heart.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petals" id="petals"></div>
+
+  <main class="container">
+    <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+
+    <section class="envelope-scene" id="envelopeScene">
+      <div class="envelope" id="envelope">
+        <div class="envelope-back"></div>
+        <div class="letter-preview">
+          <span class="letter-heart">♡</span>
+          <p>For someone special</p>
+        </div>
+        <div class="envelope-left"></div>
+        <div class="envelope-right"></div>
+        <div class="envelope-bottom"></div>
+        <div class="envelope-flap"></div>
+        <button class="seal" id="openButton"
+          aria-label="Buka surat">♡</button>
+      </div>
+    </section>
+
+    <p class="hint" id="hint">Tap the heart to open your letter</p>
+
+    <section class="letter" id="letter" aria-hidden="true">
+      <div class="letter-paper">
+        <p class="letter-date" id="letterDate">A little note, just for you</p>
+
+        <h1 id="letterTitle">To Vania ♡</h1>
+
+        <div class="divider">✿ ───── ♡ ───── ✿</div>
+
+        <div class="letter-content" id="letterContent">
+          <p>Hai, Vania.</p>
+          <p>
+            Aku nggak tahu kapan kamu mau baca surat dari aku,
+            But i wanna say something about it.
+          </p>
+          <p>
+            Naa aku tau keadaan kita sekarang dan itu karena aku.
+            Kamu pasti sedih belakangan ini...
+            Setiap kamu bilang aman, aku selalu berharap itu beneran.
+            Tapi aku sadar, aku belum tentu tau itu bener atau engga.
+            Naa kamu ngga harus pura-pura kuat di depan orang-orang terdekat kamu.
+          </p>
+          <p>
+            Naa kamu boleh cape, nangis atau ngerasa dunia lagi berat banget buat kamu,
+            Kamu ngga harus buat ngejelasin semuanya buat sekarang,
+            Dan kamu ngga harus berpura-pura keliatan lagi baik aja, 
+            Supaya orang lain ngga khawatir...
+          </p>
+          <p>
+            I always believe it will pass,
+            Mau seberat apapun itu naa.
+            I don't care how long it takes
+            I always here to you..
+            
+          </p>
+          <p>
+            Aku ngga nulis ini supaya kamu ngerasa harus reply aku,
+            berubah pikiran, atau ngasih jawaban apa pun.
+            I just want to hear you OK
+          </p>
+          <p>
+            Naa jaga diri kamu yaa
+            I apologized with all my heart...
+            Ini semua salah aku.
+          </p>
+          <p>
+            Jangan lupa makan, jangan lupa minum air putih yang cukup.
+            Jangan kepagian tidurnya, kalo ngantuk menepi.
+            Kalo sakit mipil istirahat, jangan lupa mandi biar ngga bau acem ദ്ദി◝ ⩊ ◜.ᐟ.
+          </p>
+        </div>
+
+        <div class="signature">
+          <p>With warmth,</p>
+          <span id="signatureName">— Gil ♡</span>
+        </div>
+
+        <button class="music-button" id="musicButton">
+          ♫ Play music
+        </button>
+
+        <audio id="backgroundMusic" loop>
+          <source src="mengsedih.mp4" type="audio/mpeg">
+        </audio>
+      </div>
+    </section>
+
+    <button class="reopen-button" id="reopenButton" hidden>
+      Open letter again ♡
+    </button>
+
+    <footer>made with a little love ♡</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
